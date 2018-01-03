@@ -41,31 +41,71 @@ p {
         padding-left: 5em;
         padding-right: 5em;
     }
+
+    p {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
     /*Biledjustering for farveteori*/
     #ryb {
         height: 20em;
-        padding-left: 5.5em;
+        padding-left: 20em;
     }
 
     #cmyk {
         height: 20em;
-        padding-left: 5.5em;
+        padding-left: 20em;
     }
 
     #RGBFarve {
         height: 25em;
-        padding-left: 5.5em;
+        padding-left: 18em;
     }
 
     #hsv {
-        height: 13.5em;
+        height: 30em;
+        padding-left: 5em;
     }
 
     #farveharmoni {
-        height: 9em;
+        height: 20em;
+        padding-left: 5em;;
     }
 }
 
 /*Breakpoint desktop*/
 
-@media screen and (min-width: 1920px) {}
+@media screen and (min-width: 1920px) {
+    .content {
+        padding-left: 30em;
+        padding-right: 30em;
+    }
+
+    /*Biledjustering for farveteori*/
+    #ryb {
+        height: 20em;
+        padding-left: 30em;;
+    }
+
+    #cmyk {
+        height: 20em;
+        padding-left: 30em;
+    }
+
+    #RGBFarve {
+        height: 25em;
+        padding-left: 28em;
+    }
+
+    #hsv {
+        height: 30em;
+        padding-left: 10em;
+    }
+
+    #farveharmoni {
+        height: 20em;
+        padding-left: 5em;
+    }
+}
+
+}
