@@ -109,6 +109,14 @@ ul {
     height: 11.5em;
 }
 
+#vandfald {
+    height: 11em;
+}
+
+#agimet {
+    height: 16em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
@@ -236,6 +244,16 @@ ul {
         padding-left: 3em;
     }
 
+    #vandfald {
+        height: 20em;
+        padding-left: 11em;
+    }
+
+    #agimet {
+        height: 29em;
+        padding-left: 10em;
+    }
+
     /*Breakpoint desktop*/
     @media screen and (min-width: 1920px) {
         .content {
@@ -341,6 +359,16 @@ ul {
         #valpropdet {
             height: 30em;
             padding-left: 10em;
+        }
+
+        #vandfald {
+            height: 22em;
+            padding-left: 15em;
+        }
+
+        #agimet {
+            height: 31em;
+            padding-left: 17em;
         }
 
     }
