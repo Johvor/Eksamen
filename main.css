@@ -1,10 +1,15 @@
 .content {
     padding-left: 1.5em;
     padding-right: 1.5em;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
 }
 
 p {
+    font-family: Calibri;
+    font-size: 1.1em;
+}
+
+dd {
     font-family: Calibri;
     font-size: 1.1em;
 }
@@ -60,6 +65,31 @@ p {
     height: 14em;
 }
 
+#fontanatomi {
+    height: 6em;
+}
+
+#typoraad {
+    height: 13.5em;
+}
+
+#photoshop {
+    height: 13em;
+}
+
+#logoill {
+    height: 15em;
+    padding-left: 2.9em;
+}
+
+#heineken {
+    height: 15.5em;
+}
+
+#ytvideo {
+    padding-left:1.3em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
@@ -71,6 +101,10 @@ p {
     p {
         padding-left: 1.5em;
         padding-right: 1.5em;
+    }
+    
+    dd {
+        padding-left: 1.5em;
     }
     /*Biledjustering for design*/
     #ryb {
@@ -130,7 +164,37 @@ p {
 
     #shutter {
         height: 25em;
-        padding-left:12em;
+        padding-left: 12em;
+    }
+
+    #fontanatomi {
+        height: 16em;
+    }
+
+    #typoraad {
+        height: 35em;
+        padding-left: 1em;
+    }
+
+    #photoshop {
+        height: 20em;
+        padding-left: 13em;
+    }
+
+    #logoill {
+        height: 20em;
+        padding-left: 20em;
+    }
+
+    #heineken {
+        height: 35em;
+        padding-left: 5em;
+    }
+    
+
+    #ytvideo {
+        height: 30em;
+        width: 53.3em;
     }
 }
 
@@ -201,7 +265,29 @@ p {
 
     #shutter {
         height: 29em;
-        padding-left:15em;
+        padding-left: 15em;
+    }
+
+    #fontanatomi {
+        height: 20em;
+    }
+
+    #typoraad {
+        height: 44em;
+        padding-left: 1em;
+    }
+    
+    #photoshop {
+        padding-left: 20em;
+    }
+
+    #logoill {
+        height: 25em;
+        padding-left: 25em;
+    }
+
+    #heineken {
+        padding-left: 13em;
     }
 
 }
