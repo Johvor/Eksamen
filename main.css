@@ -1,24 +1,71 @@
 .content {
     padding-left: 1.5em;
     padding-right: 1.5em;
+    padding-bottom: 2em;
 }
 
-h1 {
-    font-family: 'Muli', sans-serif;
-    font-weight: 900;
+p {
+    font-family: Calibri;
+    font-size: 1.1em;
 }
 
+/*Biledjustering for farveteori*/
 
-h2 {
-    font-family: 'Muli', sans-serif;
+#ryb {
+    height: 10em;
+    padding-left: 5.5em;
+}
+
+#cmyk {
+    height: 10em;
+    padding-left: 5.5em;
+}
+
+#RGBFarve {
+    height: 10em;
+    padding-left: 5.5em;
+}
+
+#hsv {
+    height: 13.5em;
+}
+
+#farveharmoni {
+    height: 9em;
 }
 
 /*Breakpoint tablet*/
+
 @media screen and (min-width: 1000px) {
-    
+    .content {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    /*Biledjustering for farveteori*/
+    #ryb {
+        height: 20em;
+        padding-left: 5.5em;
+    }
+
+    #cmyk {
+        height: 20em;
+        padding-left: 5.5em;
+    }
+
+    #RGBFarve {
+        height: 25em;
+        padding-left: 5.5em;
+    }
+
+    #hsv {
+        height: 13.5em;
+    }
+
+    #farveharmoni {
+        height: 9em;
+    }
 }
 
 /*Breakpoint desktop*/
-@media screen and (min-width: 1920px) {
-    
-}
+
+@media screen and (min-width: 1920px) {}
