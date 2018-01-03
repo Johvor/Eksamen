@@ -9,7 +9,7 @@ p {
     font-size: 1.1em;
 }
 
-/*Biledjustering for farveteori*/
+/*Biledjustering design*/
 
 #ryb {
     height: 10em;
@@ -34,6 +34,32 @@ p {
     height: 9em;
 }
 
+#gestalt {
+    height: 10em;
+}
+
+#exposure {
+    height: 17em;
+    padding-left: 1.7em;
+}
+
+#hvidbal {
+    height: 11em;
+}
+
+#iso {
+    height: 10.5em;
+}
+
+#aperture {
+    height: 20em;
+    padding-left: 0.5em;
+}
+
+#shutter {
+    height: 14em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
@@ -46,7 +72,7 @@ p {
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
-    /*Biledjustering for farveteori*/
+    /*Biledjustering for design*/
     #ryb {
         height: 20em;
         padding-left: 20em;
@@ -69,7 +95,40 @@ p {
 
     #farveharmoni {
         height: 20em;
-        padding-left: 5em;;
+        padding-left: 5em;
+        ;
+    }
+
+    #gestalt {
+        height: 20em;
+        padding-left: 7em;
+    }
+
+    #hvidbal {
+        height: 20em;
+        padding-left: 11em;
+    }
+
+    #exposure {
+        height: 17em;
+        padding-left: 1.7em;
+    }
+
+    #hvidbal {
+        height: 11em;
+    }
+
+    #iso {
+        height: 10.5em;
+    }
+
+    #aperture {
+        height: 20em;
+        padding-left: 0.5em;
+    }
+
+    #shutter {
+        height: 14em;
     }
 }
 
@@ -80,12 +139,13 @@ p {
         padding-left: 30em;
         padding-right: 30em;
     }
-    
-    
-    /*Biledjustering for farveteori*/
+
+
+    /*Biledjustering for design*/
     #ryb {
         height: 20em;
-        padding-left: 30em;;
+        padding-left: 30em;
+        ;
     }
 
     #cmyk {
@@ -106,5 +166,15 @@ p {
     #farveharmoni {
         height: 20em;
         padding-left: 5em;
+    }
+
+    #gestalt {
+        height: 24em;
+        padding-left: 10em;
+    }
+
+    #hvidbal {
+        height: 20em;
+        padding-left: 18em;
     }
 }
