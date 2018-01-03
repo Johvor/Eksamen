@@ -110,25 +110,27 @@ p {
     }
 
     #exposure {
-        height: 17em;
-        padding-left: 1.7em;
+        height: 25em;
+        padding-left: 16em;
     }
 
     #hvidbal {
-        height: 11em;
+        height: 20em;
     }
 
     #iso {
-        height: 10.5em;
+        height: 20em;
+        padding-left: 11em;
     }
 
     #aperture {
-        height: 20em;
-        padding-left: 0.5em;
+        height: 30em;
+        padding-left: 15em;
     }
 
     #shutter {
-        height: 14em;
+        height: 25em;
+        padding-left:12em;
     }
 }
 
@@ -174,7 +176,32 @@ p {
     }
 
     #hvidbal {
-        height: 20em;
-        padding-left: 18em;
+        height: 22em;
+        padding-left: 17em;
     }
+
+    #exposure {
+        height: 28em;
+        padding-left: 22em;
+    }
+
+    #hvidbal {
+        height: 20em;
+    }
+
+    #iso {
+        height: 26em;
+        padding-left: 11em;
+    }
+
+    #aperture {
+        height: 34em;
+        padding-left: 20em;
+    }
+
+    #shutter {
+        height: 29em;
+        padding-left:15em;
+    }
+
 }
