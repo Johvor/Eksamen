@@ -1,3 +1,10 @@
+#upperheadline {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: 550;
+    font-size: 1.8em;
+}
+
 .content {
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -143,9 +150,21 @@ ul {
     height: 24em;
 }
 
+#nytrek {
+    height: 17em;
+}
+
+#aida {
+    height: 13em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
+    #upperheadline {
+        font-size: 3.5em;
+    }
+
     .content {
         padding-left: 5em;
         padding-right: 5em;
@@ -320,7 +339,15 @@ ul {
         padding-left: 15em;
     }
 
+    #nytrek {
+        height: 30em;
+        padding-left: 11em;
+    }
 
+    #aida {
+        height: 20em;
+        padding-left: 15em;
+    }
 
     /*Breakpoint desktop*/
     @media screen and (min-width: 1920px) {
@@ -469,6 +496,13 @@ ul {
             height: 30em;
             padding-left: 25em;
         }
+        #nytrek {
+            padding-left: 17em;
+        }
 
+        #aida {
+            height: 20em;
+            padding-left: 23em;
+        }
 
     }
