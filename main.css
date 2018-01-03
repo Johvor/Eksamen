@@ -92,7 +92,21 @@ ul {
 }
 
 #ytvideo {
-    padding-left:1.3em;
+    padding-left: 1.3em;
+}
+
+/*Billeder til virksomhed*/
+
+#swot {
+    height: 11.2em;
+}
+
+#valprop {
+    height: 18em;
+}
+
+#valpropdet {
+    height: 11.5em;
 }
 
 /*Breakpoint tablet*/
@@ -107,7 +121,7 @@ ul {
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
-    
+
     dd {
         padding-left: 1.5em;
     }
@@ -195,104 +209,115 @@ ul {
         height: 35em;
         padding-left: 5em;
     }
-    
+
 
     #ytvideo {
         height: 30em;
         width: 53.3em;
     }
-}
 
-/*Breakpoint desktop*/
-
-@media screen and (min-width: 1920px) {
-    .content {
-        padding-left: 30em;
-        padding-right: 30em;
+    /*Billeder til virksomhed*/
+    #swot {
+        height: 11.2em;
     }
 
-
-    /*Biledjustering for design*/
-    #ryb {
-        height: 20em;
-        padding-left: 30em;
-        ;
+    #valprop {
+        height: 18em;
     }
 
-    #cmyk {
-        height: 20em;
-        padding-left: 30em;
+    #valpropdet {
+        height: 11.5em;
     }
 
-    #RGBFarve {
-        height: 25em;
-        padding-left: 28em;
-    }
+    /*Breakpoint desktop*/
+    @media screen and (min-width: 1920px) {
+        .content {
+            padding-left: 30em;
+            padding-right: 30em;
+        }
 
-    #hsv {
-        height: 30em;
-        padding-left: 10em;
-    }
 
-    #farveharmoni {
-        height: 20em;
-        padding-left: 5em;
-    }
+        /*Biledjustering for design*/
+        #ryb {
+            height: 20em;
+            padding-left: 30em;
+            ;
+        }
 
-    #gestalt {
-        height: 24em;
-        padding-left: 10em;
-    }
+        #cmyk {
+            height: 20em;
+            padding-left: 30em;
+        }
 
-    #hvidbal {
-        height: 22em;
-        padding-left: 17em;
-    }
+        #RGBFarve {
+            height: 25em;
+            padding-left: 28em;
+        }
 
-    #exposure {
-        height: 28em;
-        padding-left: 22em;
-    }
+        #hsv {
+            height: 30em;
+            padding-left: 10em;
+        }
 
-    #hvidbal {
-        height: 20em;
-    }
+        #farveharmoni {
+            height: 20em;
+            padding-left: 5em;
+        }
 
-    #iso {
-        height: 26em;
-        padding-left: 11em;
-    }
+        #gestalt {
+            height: 24em;
+            padding-left: 10em;
+        }
 
-    #aperture {
-        height: 34em;
-        padding-left: 20em;
-    }
+        #hvidbal {
+            height: 22em;
+            padding-left: 17em;
+        }
 
-    #shutter {
-        height: 29em;
-        padding-left: 15em;
-    }
+        #exposure {
+            height: 28em;
+            padding-left: 22em;
+        }
 
-    #fontanatomi {
-        height: 20em;
-    }
+        #hvidbal {
+            height: 20em;
+        }
 
-    #typoraad {
-        height: 44em;
-        padding-left: 1em;
-    }
-    
-    #photoshop {
-        padding-left: 20em;
-    }
+        #iso {
+            height: 26em;
+            padding-left: 11em;
+        }
 
-    #logoill {
-        height: 25em;
-        padding-left: 25em;
-    }
+        #aperture {
+            height: 34em;
+            padding-left: 20em;
+        }
 
-    #heineken {
-        padding-left: 13em;
-    }
+        #shutter {
+            height: 29em;
+            padding-left: 15em;
+        }
 
-}
+        #fontanatomi {
+            height: 20em;
+        }
+
+        #typoraad {
+            height: 44em;
+            padding-left: 1em;
+        }
+
+        #photoshop {
+            padding-left: 20em;
+        }
+
+        #logoill {
+            height: 25em;
+            padding-left: 25em;
+        }
+
+        #heineken {
+            padding-left: 13em;
+        }
+
+    }
