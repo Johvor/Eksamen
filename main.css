@@ -80,7 +80,8 @@ p {
         padding-left: 30em;
         padding-right: 30em;
     }
-
+    
+    
     /*Biledjustering for farveteori*/
     #ryb {
         height: 20em;
@@ -106,6 +107,4 @@ p {
         height: 20em;
         padding-left: 5em;
     }
-}
-
 }
