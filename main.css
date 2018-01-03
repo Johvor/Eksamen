@@ -122,6 +122,10 @@ ul {
         padding-right: 1.5em;
     }
 
+    dl {
+        padding-left: 1.5em
+    }
+
     dd {
         padding-left: 1.5em;
     }
@@ -218,15 +222,18 @@ ul {
 
     /*Billeder til virksomhed*/
     #swot {
-        height: 11.2em;
+        height: 20em;
+        padding-left: 10em;
     }
 
     #valprop {
-        height: 18em;
+        height: 30em;
+        padding-left: 13em;
     }
 
     #valpropdet {
-        height: 11.5em;
+        height: 30em;
+        padding-left: 3em;
     }
 
     /*Breakpoint desktop*/
@@ -318,6 +325,22 @@ ul {
 
         #heineken {
             padding-left: 13em;
+        }
+
+        /*Billeder til virksomhed*/
+        #swot {
+            height: 25em;
+            padding-left: 12em;
+        }
+
+        #valprop {
+            height: 35em;
+            padding-left: 16em;
+        }
+
+        #valpropdet {
+            height: 30em;
+            padding-left: 10em;
         }
 
     }
