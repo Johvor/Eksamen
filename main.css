@@ -2,7 +2,6 @@
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 5em;
-    padding-top: 2em;
 }
 
 p {
@@ -118,12 +117,34 @@ ul {
     height: 16em;
 }
 
+/*Billeder til kommunikation*/
+
+#imkmodel {
+    height: 26em;
+}
+
+#thorlac {
+    height: 15.3em;
+}
+
+#kotler {
+    height: 10em;
+}
+
+#bollemodel {
+    height: 24em;
+}
+
+#wireframe {
+    height: 21em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
     .content {
-        padding-left: 7em;
-        padding-right: 7em;
+        padding-left: 5em;
+        padding-right: 5em;
     }
 
     p {
@@ -138,6 +159,15 @@ ul {
     dd {
         padding-left: 1.5em;
     }
+
+    #sublistdt {
+        padding-left: 4em;
+    }
+
+    #sublistdd {
+        padding-left: 5em;
+    }
+
     /*Biledjustering for design*/
     #ryb {
         height: 20em;
@@ -255,6 +285,33 @@ ul {
         padding-left: 10em;
     }
 
+    /*Billeder til kommunikation*/
+    #imkmodel {
+        height: 33em;
+        padding-left: 14em;
+    }
+
+    #thorlac {
+        height: 30em;
+        padding-left: 6em;
+    }
+
+    #kotler {
+        height: 20em;
+        padding-left: 6em;
+    }
+
+    #bollemodel {
+        height: 30em;
+        padding-left: 14em;
+    }
+    
+    #wireframe {
+        height: 28em;
+        padding-left:14em;
+    }
+
+
     /*Breakpoint desktop*/
     @media screen and (min-width: 1920px) {
         .content {
@@ -371,5 +428,32 @@ ul {
             height: 31em;
             padding-left: 17em;
         }
+
+        /*Billeder til kommunikation*/
+        #imkmodel {
+            height: 35em;
+            padding-left: 20em;
+        }
+
+        #thorlac {
+            height: 32em;
+            padding-left: 11em;
+        }
+
+        #kotler {
+            height: 22em;
+            padding-left: 11em;
+        }
+
+        #bollemodel {
+            height: 32em;
+            padding-left: 22em;
+        }
+        
+        #wireframe {
+        height: 30em;
+        padding-left:19em;
+    }
+
 
     }
