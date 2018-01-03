@@ -139,6 +139,10 @@ ul {
     height: 21em;
 }
 
+#mindmap {
+    height: 24em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
@@ -305,11 +309,17 @@ ul {
         height: 30em;
         padding-left: 14em;
     }
-    
+
     #wireframe {
         height: 28em;
-        padding-left:14em;
+        padding-left: 14em;
     }
+
+    #mindmap {
+        height: 30em;
+        padding-left: 15em;
+    }
+
 
 
     /*Breakpoint desktop*/
@@ -449,11 +459,16 @@ ul {
             height: 32em;
             padding-left: 22em;
         }
-        
+
         #wireframe {
-        height: 30em;
-        padding-left:19em;
-    }
+            height: 30em;
+            padding-left: 19em;
+        }
+
+        #mindmap {
+            height: 30em;
+            padding-left: 25em;
+        }
 
 
     }
