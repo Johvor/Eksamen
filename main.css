@@ -26,6 +26,10 @@ ul {
     font-size: 1.1em;
 }
 
+#lisub {
+    padding-left: 1.6em;
+}
+
 /*Biledjustering design*/
 
 #ryb {
@@ -156,6 +160,10 @@ ul {
 
 #aida {
     height: 13em;
+}
+
+#perspektiv {
+    height: 27em;
 }
 
 /*Breakpoint tablet*/
@@ -349,6 +357,11 @@ ul {
         padding-left: 15em;
     }
 
+    #perspektiv {
+        height: 35em;
+        padding-left: 20em;
+    }
+
     /*Breakpoint desktop*/
     @media screen and (min-width: 1920px) {
         .content {
@@ -504,5 +517,9 @@ ul {
             height: 20em;
             padding-left: 23em;
         }
+
+        #perspektiv {
+            height: 45em;
+            padding-left: 30em;
 
     }
