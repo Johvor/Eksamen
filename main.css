@@ -1,0 +1,24 @@
+.content {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+
+
+h2 {
+    font-family: 'Muli', sans-serif;
+}
+
+/*Breakpoint tablet*/
+@media screen and (min-width: 1000px) {
+    
+}
+
+/*Breakpoint desktop*/
+@media screen and (min-width: 1920px) {
+    
+}
