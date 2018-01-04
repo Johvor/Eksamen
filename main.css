@@ -1,3 +1,4 @@
+/*Headline*/
 #upperheadline {
     text-align: center;
     font-family: Calibri;
@@ -5,32 +6,38 @@
     font-size: 1.8em;
 }
 
+/*Indholdsramme for alt indhold på de mange sider*/
 .content {
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 5em;
 }
 
+/*fontangivelse for paragraffer*/
 p {
     font-family: Calibri;
     font-size: 1.1em;
 }
 
+/*Fontangivelser for definitionslister*/
 dd {
     font-family: Calibri;
     font-size: 1.1em;
 }
 
+/*fontangivelser for unordered lists*/
 ul {
     font-family: Calibri;
     font-size: 1.1em;
 }
 
+/*fontangivelser for unordered lists*/
 ol {
     font-family: Calibri;
     font-size: 1.1em;
 }
 
+/*padding til specifikke list items*/
 #lisub {
     padding-left: 1.6em;
 }
@@ -218,11 +225,13 @@ ol {
     dd {
         padding-left: 1.5em;
     }
-
+    
+    /*Nogle definitionslister krævede ekstra indryl (padding) i venstre side*/
     #sublistdt {
         padding-left: 4em;
     }
-
+    
+    /*Nogle definitionslister krævede ekstra indryl (padding) i venstre side*/
     #sublistdd {
         padding-left: 5em;
     }
