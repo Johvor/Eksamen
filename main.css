@@ -181,6 +181,14 @@ ol {
     height: 8em;
 }
 
+#csselement {
+    height: 5em;
+}
+
+#cssgridmod {
+    height: 11.5em;
+}
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
@@ -388,6 +396,17 @@ ol {
         padding-left: 1em;
     }
 
+    #csselement {
+        height: 12em;
+        padding-left: 8em;
+        margin-bottom: 2em;
+    }
+
+    #cssgridmod {
+        height: 20em;
+        padding-left: 14em;
+    }
+
     /*Breakpoint desktop*/
     @media screen and (min-width: 1920px) {
         .content {
@@ -549,7 +568,7 @@ ol {
             padding-left: 30em;
 
         }
-        
+
         /*Billeder til interaktionsudvikling*/
         #htmlelement {
             height: 14em;
@@ -559,5 +578,13 @@ ol {
         #ytbillede {
             height: 27em;
             padding-left: 1em;
+        }
+
+        #csselement {
+            padding-left: 17em;
+        }
+
+        #cssgridmod {
+            padding-left: 22em;
         }
     }
