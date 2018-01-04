@@ -189,6 +189,11 @@ ol {
     height: 11.5em;
 }
 
+#bsgrid {
+    height: 15em;
+    padding-left: 0.5em;
+    }
+
 /*Breakpoint tablet*/
 
 @media screen and (min-width: 1000px) {
@@ -406,6 +411,11 @@ ol {
         height: 20em;
         padding-left: 14em;
     }
+    
+    #bsgrid {
+        padding-left: 9em;
+        height: 30em;
+    }
 
     /*Breakpoint desktop*/
     @media screen and (min-width: 1920px) {
@@ -586,5 +596,9 @@ ol {
 
         #cssgridmod {
             padding-left: 22em;
+        }
+        
+        #bsgrid {
+        padding-left: 16em;
         }
     }
